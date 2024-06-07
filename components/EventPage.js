@@ -12,6 +12,7 @@ const EventPage = () => {
       <div className={styles.imageContainer}>
         <img src="/images/event-space.png" alt="Event Space" className={styles.image}/>
       </div>
+      
       <div className={styles.imageContainer}>
         <img src="/images/food-img.png" alt="Food and Drinks" className={styles.image}/>
       </div>
