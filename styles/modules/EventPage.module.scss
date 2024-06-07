@@ -1,0 +1,51 @@
+/* components/EventPage.module.css */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .planYourEvent, .eatDrink {
+    padding: 20px;
+    background-color: #dce4f0;
+  }
+  
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  
+  .button {
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .planYourEvent, .eatDrink {
+      text-align: center;
+    }
+  
+    .imageContainer {
+      margin-bottom: 20px;
+    }
+  }
+  
