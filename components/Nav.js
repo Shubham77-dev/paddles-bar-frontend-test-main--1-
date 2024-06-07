@@ -25,6 +25,11 @@ export default function Nav(props) {
           </Link>
         </li>
         <li className={cl("item")}>
+          <Link href="floor" className={cl("link")}>
+            Floor
+          </Link>
+        </li>
+        <li className={cl("item")}>
           <ReserveBadge />
         </li>
       </ul>

@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #b78d73;
+  }
+  
+  .navigation {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  .navigation span {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .navigation .active {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .floorImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .floorImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .downloadButton {
+    background-color: transparent;
+    border: 1px solid #4a4a4a;
+    color: #4a4a4a;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .downloadButton:hover {
+    background-color: #4a4a4a;
+    color: #fff;
+  }
+  
